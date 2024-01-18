@@ -30,31 +30,6 @@ def div(a, b):
 def mul(a, b):
     return  a * b
 
-    
-    # try:
-    #     a = int(a)
-    #     b = int(b)
-    # except (ValueError, TypeError):
-    #     print("Error! Only enter integer values!")
-    # else:
-    #     r = 0
-
-    #     if operator == "+":
-    #         r = add(int(a),int(b))
-    #     elif operator == "-":
-    #         r = sub(int(a),int(b))
-    #     elif operator == "x":
-    #         r = mul(int(a),int(b))
-    #     elif operator == "/":
-    #         r = div(int(a),int(b))
-    #     else:
-    #         r = "Unable to perform the desired calculation, please try again."
-        
-    #     print(r)
-    # finally:
-    #     if input("Run another calculation (y/n)? ") == "y":
-    #         run()
-
 
 def run():
     a = input("Enter left operand: ")
